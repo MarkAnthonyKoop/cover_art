@@ -1,18 +1,18 @@
-[build-system]
-requires = ["setuptools>=68"]
-build-backend = "setuptools.build_meta"
+        [build-system]
+        requires = ["setuptools>=68"]
+        build-backend = "setuptools.build_meta"
 
-[project]
-name = "cover_art"
-version = "0.1.0"
-description = "Procedural (offline) cover art: fog backgrounds, instrument silhouettes, title overlay."
-requires-python = ">=3.10"
-dependencies = [
+        [project]
+        name = "cover_art"
+        version = "0.1.0"
+        description = "Procedural cover art: fog + instrument silhouettes + title overlay."
+        requires-python = ">=3.10"
+        dependencies = [
     "Pillow",
     "numpy",
 ]
 
-[tool.setuptools]
+        [tool.setuptools]
 packages = ["cover_art"]
 
 [tool.setuptools.package-dir]
