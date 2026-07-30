@@ -3,8 +3,8 @@ from __future__ import annotations
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
-_DEFAULT_TITLE_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf"
-_DEFAULT_SUBTITLE_FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+_DEFAULT_TITLE_FONT = "/System/Library/Fonts/Supplemental/Times New Roman Bold.ttf"
+_DEFAULT_SUBTITLE_FONT = "/System/Library/Fonts/Helvetica.ttc"
 
 
 def add_title(img: Image.Image, title: str, subtitle: str | None = None,

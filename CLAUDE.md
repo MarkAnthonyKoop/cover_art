@@ -53,3 +53,9 @@ AI image gen requires API keys, network, and is slow + nondeterministic. Procedu
 ## Documentation contract
 
 If you add a style: README §1 example, §2 CLI table, §3 STYLES dict. If you change a function signature: README §2.
+
+## Note (2026-07-30, ~/claude/movie_studio session — claimed & FIXED)
+`overlay.py` default fonts were Linux DejaVu paths (OSError on macOS; fog() and
+instruments were fine, only add_title() broke). Now macOS system fonts
+(Times New Roman Bold / Helvetica). drum_shorts may use fog()+add_title()
+for YouTube thumbnails.
